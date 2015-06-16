@@ -1,6 +1,5 @@
 package buschfunk_new;
 
-// test Tobi
 
 
 import java.sql.ResultSet;
@@ -77,7 +76,7 @@ public class dbconnect {
 	        
 		}
 		
-	    public static Boolean logoff(String username, Connection c) throws SQLException{
+	    public static boolean logoff(String username, Connection c) throws SQLException{
 	        Statement stmtlogoff = null;
 	        String namelogoff = null;
 	        
